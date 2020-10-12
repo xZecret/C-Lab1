@@ -2,7 +2,7 @@
 #include <cmath>
 
 using namespace std;
-
+int main()
  {
 	//Lab 2.2
 	cout << "\n Lab 2.2 \n";
