@@ -3,7 +3,7 @@
 
 using namespace std;
 {
-	cout << "Vipolnil Panin Ilya VPI - 21!" << endl;
+	cout << "Tharkhahov Adam VPI - 22" << endl;
 
 	//Lab 2.1
 	cout << "\n Lab 2.1 \n";
