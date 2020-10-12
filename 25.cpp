@@ -2,7 +2,7 @@
 #include <cmath>
 
 using namespace std;
-
+int main()
  {
 	cout << "\nLab2.25\n";
 	char str[4] = { 'a', 'b', 'c', 'd' };
