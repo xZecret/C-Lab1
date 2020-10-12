@@ -2,6 +2,7 @@
 #include <cmath>
 
 using namespace std;
+int main()
 
  {
 	// Lab 2.3
