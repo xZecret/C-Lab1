@@ -2,6 +2,7 @@
 #include <cmath>
 
 using namespace std;
+int main()
 {
 	cout << "Tharkhahov Adam VPI - 22" << endl;
 
