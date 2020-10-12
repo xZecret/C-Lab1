@@ -2,6 +2,7 @@
 #include <cmath>
 
 using namespace std;
+int main()
 
  {
 	cout << "\nLab2.18\n";
