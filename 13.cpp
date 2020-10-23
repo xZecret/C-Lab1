@@ -4,30 +4,32 @@
 using namespace std;
 int main()
 
- {
+{
 	cout << "\nLab2.13\n";
-	
+
+	cout << "a) \n";
 	int i;
-	//i = (1 || 2) % (1 | 2);
-	//printf(" i = % d\n", i);
+	i = (1 || 2) % (1 | 2);
+	printf(" i = % d\n", i);
 
 	cout << "b) \n";
 	int  a, b, m, n, z;
 	m = n = 5;
 	z = a = b = 0;
 	z--, (a = b) = z + (m != n);
-	printf(" % d % d % d % d % d\n",a, b, m, n, z);
+	printf(" % d % d % d % d % d\n", a, b, m, n, z);
 
 	cout << "c) \n";
 	i = 1;
 	i = i << i | i;
 	printf(" i = % d\n", i);
 
+	cout << "d) \n";
 	double  x = 1.9;
 	double  b1 = 3.7;
-	//a = b1 += (1 && 2 || 3) != (int)x;
-	//printf(" % f % d % f\n", x, a, b1);
-	
+	a = b1 += (1 && 2 || 3) != (int)x;
+	printf(" % f % d % f\n", x, a, b1);
+
 	cout << "e) \n";
 	int x1;
 	x1 = 5; ++x1 = 10;
@@ -44,12 +46,12 @@ int main()
 	int x3, y3;
 	x3 = 5; y3 = x && ++x;
 	printf("%d %d\n", x3, y3);
-	
+
 	cout << "h) \n";
 	int x4 = 2, y4, z4;
 	x4 *= 3 + 2; x4 *= y4 = z4 = 4;
 	printf("%d %d %d\n", x4, y4, z4);
-	x4 = y4 == z4; 
+	x4 = y4 == z4;
 	x4 == (y4 = z4);
 	printf("%d %d %d\n", x4, y4, z4);
 
