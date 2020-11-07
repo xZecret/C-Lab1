@@ -1,11 +1,11 @@
-#include <iostream>
-#include <cmath>
+#include <stdio.h>
 
-using namespace std;
 int main()
- {
-	cout << "\nLab2.25\n";
-	char str[4] = { 'a', 'b', 'c', 'd' };
-	unsigned int* n = (unsigned int*)str;
-	unsigned int a = *n;
+{
+    char a, b, c, d;
+    int x;
+    scanf("%c%c%c%c", &a, &b, &c, &d);
+    x = d | c << 8 | b << 16 | a << 24;
+    printf("%#x\n%d", x, x);
+    return 0;
 }
