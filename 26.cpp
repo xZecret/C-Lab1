@@ -1,13 +1,14 @@
-#include <iostream>
-#include <cmath>
+#include <stdio.h>
 
-using namespace std;
 int main()
-
- {
-	cout << "\nLab2.26\n";
-	unsigned n = 0xFFFFFFFF;
-	char c[4];
-	for (int i = 0; i < 4; i++)
-		c[i] = ((n >> 8 * i) & 255);
+{
+    char a, b, c, d;
+    int x;
+    scanf("%d", &x);
+    d = x;
+    c = x >> 8;
+    b = x >> 16;
+    a = x >> 24;
+    printf("%c%c%c%c", a, b, c, d);
+    return 0;
 }
