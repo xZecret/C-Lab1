@@ -1,15 +1,10 @@
-#include <iostream>
-#include <cmath>
+#include <stdio.h>
 
-using namespace std;
-int main()
-
- {
-	cout << "\nLab2.28\n";
-	unsigned int n = 0xFFFFFFFF;
-	bool trans = n & 1;
-	n >> 1;
-	if (trans)
-		n |= 0x80000000;
-	cout << n << endl;
+int main ()
+{
+    int x, n;
+    scanf("%d%d", &x, &n);
+    x >>= n;
+    printf("x = %d", x);
+    return 0;
 }
