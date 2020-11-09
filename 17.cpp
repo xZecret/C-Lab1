@@ -1,13 +1,11 @@
-#include <iostream>
-#include <cmath>
+#include <stdio.h>
 
-using namespace std;
 int main()
-
- {
-	cout << "\nLab2.17\n";
-	int x,k;
-	cin >> x;
-	k = (x / 100) % 10;
-	cout << k << endl;
+{
+    int x, k;
+    printf("x = ");
+    scanf("%d", &x);
+    k = (x / 100) % 10;
+    printf("k = %d", k);
+    return 0;
 }
