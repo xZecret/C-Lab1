@@ -1,14 +1,13 @@
-#include <iostream>
-#include <cmath>
+#include <stdio.h>
 
-using namespace std;
 int main()
- {
-	cout << "\nLab2.19\n";
-	double x;
-	int k;
-	cin >> x;
-	k = x * 10;
-	k %= 10;
-	cout << k << endl;
+{
+    double x;
+    int k;
+    printf("x = ");
+    scanf("%lf", &x);
+    k = x * 10;
+    k %= 10;
+    printf("k = %d", k);
+    return 0;
 }
