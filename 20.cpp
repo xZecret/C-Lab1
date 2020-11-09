@@ -1,17 +1,16 @@
-#include <iostream>
-#include <cmath>
+#include <stdio.h>
 
-using namespace std;
 int main()
-
- {
-	cout << "\nLab2.20\n";
-	int x,newint,i;
-	newint = 0;
-	cin >> x;
-	for (i = 2; i >= 0; i--) {
-		newint += (x % 10) * pow(10, i);
-		x /= 10;
-	}
-	cout << newint << endl;
+{
+    int x, a, b, c;
+    printf("x = ");
+    scanf("%d", &x);
+    if ((x > 99) && (x < 1000)){ 
+        a = x % 10; x /= 10;
+        b = x % 10; x /= 10;
+        c = x % 10; x /= 10;
+        printf("k = %d%d%d", a, b, c);
+    }
+    else printf("wrong input");
+    return 0;
 }
