@@ -1,12 +1,13 @@
-#include <iostream>
-#include <cmath>
+#include <stdio.h>
 
-using namespace std;
 int main()
-
- {
-	cout << "\nLab2.21\n";
-	int x;
-	cin >> x;
-	cout << "Proshlo minut: "<< x / 60<< "\nProshlo chasov: "<< x / 3600 << endl;
+{
+    int x, h, m;
+    printf("x = ");
+    scanf("%d", &x);
+    m = x / 60;
+    h = m / 60;
+    m-= h * 60;
+    printf("hours = %d\nminutes = %d", h, m);
+    return 0;
 }
